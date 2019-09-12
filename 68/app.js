@@ -21,6 +21,6 @@ form.addEventListener('submit', e => {
     result.querySelector('span').textContent = `${score}%`;
     result.classList.remove('d-none');
 
-    console.log(score);
+    //console.log(score);
 
 });
