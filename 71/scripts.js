@@ -22,6 +22,6 @@ const premiumUsers = users.filter(user =>{
 });
 
 //can also write like this:
-//const premiumUsers = users.filter(user => return user.premium);
+//const premiumUsers = users.filter(user => user.premium);
 
 console.log(premiumUsers);
